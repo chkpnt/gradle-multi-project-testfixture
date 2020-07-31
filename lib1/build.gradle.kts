@@ -11,7 +11,6 @@ dependencies {
     testImplementation("org.hamcrest:hamcrest")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
     testRuntimeOnly(testFixtures(project(":common-arch-tests")))
-    //commonArchTests(testFixtures(project(":common-arch-tests")))
 }
 
 val test by tasks.getting(Test::class) {
